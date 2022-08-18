@@ -1,0 +1,194 @@
+// add all CSS here!
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+nav {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  color: white;
+  background-color: rgb(66, 145, 152);
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+main {
+  font-weight: regular;
+  font-size: 16px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+.nav-container {
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 150px;
+}
+
+p.caption {
+  font-size: 12px;
+}
+
+main img {
+  width: 400px;
+  height: 200px;
+}
+
+div.img-caption {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+div.row {
+  display: flex;
+}
+
+div.col {
+  display: flex;
+  flex-direction: column;
+}
+
+main button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: rgb(66, 145, 152);
+  color: white;
+  border-radius: 5px;
+}
+
+.see-more {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.month-year-container {
+  display: flex;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.row2 {
+  display: flex;
+  margin-top: 75px;
+  
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 75px;
+}
+
+#picker-title {
+  color:  rgb(66, 145, 152);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+
+  main img {
+    width: 100%;
+    height: 80%;
+    min-width: 150px;
+  }
+
+  p.caption {
+    width: 100%;
+  }
+  
+  nav{
+    justify-content: center;
+  }
+  .nav-container {
+    margin-left: 0px;
+    text-align: center;
+  }
+  main {
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+  }
+  .row {
+    flex-direction: column-reverse;
+  }
+  div.col {
+    width: 100%;
+    margin-left: 10px;
+  }
+  div.img-caption {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .see-more {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .row2{
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .col2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav{
+    justify-content: center;
+  }
+
+  .nav-container {
+    font-size: 25px;  
+  }
+  
+  main {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .nav-container {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .row {
+    flex-direction: column-reverse;
+  }
+  div.col {
+    width: 100%;
+    margin-left: 10px;
+  }
+  div.img-caption {
+    margin-left: 0px;
+  }
+  .see-more {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .row2{
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .col2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+}
+
